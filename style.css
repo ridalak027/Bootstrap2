@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+color{
+    color: red;
+}
+/*  */
+#navbarSupportedContent ul li{
+    transition: all .5s ease;
+}
+
+#navbarSupportedContent ul li:hover{
+    background-color: rgb(252, 122, 122);
+    transform: scale(1.2);
+    border-radius: 3px;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-brand img{
+   transition: all .5s ease;
+}
+
+.navbar-brand img:hover{
+    transform: translate(0px,-15px);
+}
+
+#sec-1{
+    background-color: rgb(240, 239, 242);
+    max-height: 75%;
+}
+
+.btn{
+    background-color: rgb(255, 31, 32);
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 8px 18px ;
+    margin-top: 10px;
+    transition: all .5s ease;
+}
+
+.btn:hover{
+   transform: translate(2px,3px);
+}
+
+#sec-1 img{
+    max-width: 64%;
+}
+
+/* end of sec-1 */
+
+#sec-2 .container .row .col-lg-4 div{
+    overflow: hidden;
+}
+
+#sec-2 .container .row .col-lg-4 div img{
+    border-radius: 3px;
+    transition: all .6s ease-in-out;
+}
+
+#sec-2 .container .row .col-lg-4 div:hover img{
+    transform: scale(1.2);
+}
+
+/* end of sec-2 */
+
+#sec-3 .container-fluid .row .col-lg-6{
+    width: 650px;
+    height: 460px;
+    overflow: hidden;
+}
+
+#sec-3 .container-fluid .row .col-lg-6 img{
+    width: 700px;
+    height: 510px;
+    transition: all .7s ease;
+}
+
+#sec-3 .container-fluid .row .col-lg-4{
+    width: 350px;
+    height: 460px;
+    overflow: hidden;
+}
+
+#sec-3 .container-fluid .row .col-lg-4 img{
+    width: 400px;
+    height: 510px;
+    transition: all .7s ease;
+}
+
+#sec-3 .container-fluid .row .col-lg-2 div{
+    width: 250px;
+    height: 220px;
+    overflow: hidden;
+}
+
+#sec-3 .container-fluid .row .col-lg-2 div img{
+    width: 300px;
+    height: 270px;
+    transition: all .7s ease;
+}
+
+
+#sec-3 .container-fluid .row .col-lg-6:hover img{
+    filter: grayscale(60%);
+    transform: scale(0.95);
+}
+
+#sec-3 .container-fluid .row .col-lg-4:hover img{
+    filter: grayscale(60%);
+    transform: scale(0.95);
+}
+
+#sec-3 .container-fluid .row .col-lg-2 div:hover img{
+    filter: grayscale(60%);
+    transform: scale(0.95);
+}
+
+/* end of sec-3 */
+
+#sec-4 .container .row .col-lg-4 div{
+    position: relative;
+    overflow: hidden;
+}
+
+#sec-4 .container .row .col-lg-4 div i{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    opacity: 0;
+    transition: .6s;
+}
+
+#sec-4 .container .row .col-lg-4 div button{
+   background-color: rgba(255, 0, 0, 0.705);
+   color: white;
+   position: absolute;
+   bottom: 0;
+   left: 3px;
+   z-index: 10;
+   transform: translateY(95%);
+   transition: .6s;
+   display: block;
+}
+
+#sec-4 .container .row div:hover button{
+    transform: translateY(0);
+}
+
+#sec-4 .container .row div:hover i{
+    opacity: 1;
+}
+
+/* end of sec-4 */
+
+#sec-6 .container .row{
+    background-color: rgb(235, 0, 0);
+    color: white;
+}
+
+#sec-6 .container .row p{
+    color: white;
+}
+
+/* end of sec-6 */
+
+footer .container .row ul li a{
+   color: black;
+}
